@@ -17,7 +17,7 @@ my_musica =	{
     "genero": "corrido" 
 }
 # Zona de Tuplas
-music = ("Luna", "La patrulla", "HOLLYWOOD")
+music = ("Puño de tierra", "La patrulla", "HOLLYWOOD")
 # Zona de  Sets
 mus = {"Luna", "No se va","Tarde"}
 # Creaccion de objeto
@@ -27,12 +27,12 @@ print("Estatura: ",info.estatura)
 print("Peso: ",info.peso)
 print("Lista de Canciones de Esquivel Adrian")
 info.mi_lista()
-print("")
-for x in my_musica.values():
-    print(x)
-print("")    
+print("Diccionario de cancion de Esquivel Adrian")
+for x, y in my_musica.items():
+    print(x, y)
+print("Tuplas de canciones de Esquivel Adrian")    
 for x in music:
     print(x)
-print("")
+print("Set de canciones de Esquivel Adrian")
 for x in mus:
     print(x)
