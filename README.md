@@ -1,7 +1,8 @@
 # Act8_Clasesv2_5J
 # Codigo 
-- ![image](https://github.com/user-attachments/assets/c15480dd-54ff-41e5-a67d-2d448025c0d2)
-- ![image](https://github.com/user-attachments/assets/3819870a-78b7-45b1-8045-df609ef62e8a)
+- ![image](https://github.com/user-attachments/assets/d8266430-cb4d-4b71-ad28-338584cf4b5f)
+- ![image](https://github.com/user-attachments/assets/4b54d211-d3bb-496b-acdb-34b1d4e232f5)
 # Resultado
--  ![image](https://github.com/user-attachments/assets/f8970b79-cd7e-4fba-8fc5-5ba586ede9d3)
+-  ![image](https://github.com/user-attachments/assets/86a2ccbe-eae0-4d7b-a7c2-8db2f72f2eea)
+
 
