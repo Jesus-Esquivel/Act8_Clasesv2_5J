@@ -6,20 +6,31 @@ class Datos:
         self.estatura=estatura
         self.peso=peso   
     def mi_lista(self):
-        canciones=["La patrulla","HOLLLYWOOD","Por Las Noches"]
+        canciones=["La patrulla","HOLLYWOOD","Por Las Noches"]
         print(canciones)
         for music in canciones:
             print(music) 
-# Zona de Dictionaries
-my_musica =	{
-    "Nombre": "La patrulla",
-    "año": "2024",
-    "genero": "corrido" 
-}
 # Zona de Tuplas
-music = ("Puño de tierra", "La patrulla", "HOLLYWOOD")
+    def music(self):
+        misc=["Puño de tierra", "La patrulla", "HOLLYWOOD"]
+        print(misc)
+        for x in misc:
+            print(x)
+# Zona de Dictionaries
+    def my_musica(self):
+        mucs={
+            "Nombre": "La patrulla",
+            "genero": "corrido",
+            "año": 2024}
+        print(mucs)
+        for x, y in mucs.items():
+            print(x, y) 
 # Zona de  Sets
-mus = {"Luna", "No se va","Tarde"}
+    def musc(self):
+        cancion={"Luna", "No se va","Tarde"}
+        print(cancion)
+        for x in cancion:
+            print(x)
 # Creaccion de objeto
 info=Datos(1.90,60)
 # Utilizando el obj.
@@ -27,12 +38,9 @@ print("Estatura: ",info.estatura)
 print("Peso: ",info.peso)
 print("Lista de Canciones de Esquivel Adrian")
 info.mi_lista()
-print("Diccionario de cancion de Esquivel Adrian")
-for x, y in my_musica.items():
-    print(x, y)
-print("Tuplas de canciones de Esquivel Adrian")    
-for x in music:
-    print(x)
-print("Set de canciones de Esquivel Adrian")
-for x in mus:
-    print(x)
+print("Tuplas de Canciones de Esquivel Adrian")
+info.music()
+print("Diccionarios de Canciones de Esquivel Adrian")
+info.my_musica()
+print("Set de Canciones de Esquivel Adrian")
+info.musc()
